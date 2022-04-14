@@ -31,7 +31,7 @@ $(document).ready(function() {
     $(".modal").modal();
 
     //display base map. 
-    L.mapquest.key = 'lYrP4vF3Uk5zgTiGGuEzQGwGIVDGuy24';
+    L.mapquest.key = 'jwKdDQ2lmEqM8llBH4rcUsNACRDmOug8';
     let map = L.mapquest.map('map', {
         center: [25.74, -80.29],
         layers: L.mapquest.tileLayer('map'),
@@ -85,7 +85,7 @@ $(document).ready(function() {
 
         //prepare api key and query url for ajax call
 
-        let apikey = "q1OFvftbUw9yLkYlGeg8md7bDcT0Z35v9n_DP_qQFjUzHcLHKJ87k3b7MWe35-4NNrGQ_gPOQm9WBXuTl785tf8a55k3sRNL_ItoMCZu1jkyXLWNs0OI_NydhyK6XXYx";
+        let apikey = "gTjdY5VU8HGdlD9j49AxAHau7GFoTNJGNkmI9tTrRDlBfrsTEtPIj26Yazt1VON8hNn1lDqc23xE4JTEPZpsDlNp3IJW40UI9nSTG67_TTzJuar-7pj19hIddXJXYnYx";
         let queryurl = "https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/businesses/search?term=" + item + "&location=" + zip + "&radius=" + radius + "&limit=" + storeNum;
 
         // ajax call to yelp fusion api
